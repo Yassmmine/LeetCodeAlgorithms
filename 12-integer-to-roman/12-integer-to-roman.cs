@@ -27,8 +27,8 @@ public class Solution {
             //Console.WriteLine("count=",count);
             count=1;
         }
-       Console.WriteLine("res="+res);
-        Console.WriteLine("count={0},num={1}",count,num);
+       // Console.WriteLine("res="+res);
+       //  Console.WriteLine("count={0},num={1}",count,num);
         if(count==4){
             temp=(int)Math.Pow(10, count-1);
             int x=0;
@@ -39,9 +39,9 @@ public class Solution {
                 count--;
               num=num-temp*x;
         }
-               Console.WriteLine("res="+res);
+//                Console.WriteLine("res="+res);
 
-                Console.WriteLine("res={0},count={1},num={2}",res,count,num);
+//                 Console.WriteLine("res={0},count={1},num={2}",res,count,num);
 
         if(count==3){
             if(num>=900){
@@ -72,9 +72,9 @@ public class Solution {
                 num=num-temp*x;
             }
             count--;
-        }       Console.WriteLine("res="+res);
+         }    //   Console.WriteLine("res="+res);
 
-                Console.WriteLine("res={0},count={1},num={2}",res,count,num);
+//                 Console.WriteLine("res={0},count={1},num={2}",res,count,num);
 
         if(count==2){
              if(num>=90){
@@ -105,9 +105,9 @@ public class Solution {
                 num=num-temp*x;
             }
             count--;
-        }       Console.WriteLine("res="+"jjjj");
+        }      // Console.WriteLine("res="+"jjjj");
 
-                Console.WriteLine("res={0},count={1},num={2}",res,count,num);
+                // Console.WriteLine("res={0},count={1},num={2}",res,count,num);
 
         if(count==1){
               if(num>=9){

@@ -3,7 +3,7 @@ public class Solution {
         int ptrm=m-1,ptrn=n-1,ptr=m+n-1;
         // if(n==0&&m==0)
         //     return;
-        List<int> temp=new();
+        // List<int> temp=new();
         while(ptrm>=0&&ptrn>=0){
             if(nums1[ptrm]>nums2[ptrn]){
                 nums1[ptr]=nums1[ptrm];
@@ -14,7 +14,7 @@ public class Solution {
                 ptrn--;
             }
             ptr--;
-       Console.WriteLine("1m1={0},n1={1},num1={2}",ptrm,ptrn,String.Join(",",nums1));
+       // Console.WriteLine("1m1={0},n1={1},num1={2}",ptrm,ptrn,String.Join(",",nums1));
 
         }
         while(ptrm>=0){
@@ -23,7 +23,7 @@ public class Solution {
                 ptrm--;
            
             ptr--;
-                   Console.WriteLine("2m1={0},n1={1},num1={2}",ptrm,ptrn,String.Join(",",nums1));
+                   // Console.WriteLine("2m1={0},n1={1},num1={2}",ptrm,ptrn,String.Join(",",nums1));
 
         }
         while(ptrn>=0){
@@ -32,7 +32,7 @@ public class Solution {
                 ptrn--;
            
             ptr--;
-                   Console.WriteLine("3m1={0},n1={1},num1={2}",ptrm,ptrn,String.Join(",",nums1));
+                   // Console.WriteLine("3m1={0},n1={1},num1={2}",ptrm,ptrn,String.Join(",",nums1));
 
         }
 //         while(m1<m&&n1<n){
